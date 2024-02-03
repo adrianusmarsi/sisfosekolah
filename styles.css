@@ -1,12 +1,22 @@
   body{
     background-image: url(img/w1.jpg);
     background-size:inherit;
+    min-height: 3000px;
   }
   .container {
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
+  }
+  /*
+  #galery {
+    background-color: #ffd86d;
+  }
+  */
+  
+  section {
+    padding-top: 5rem;
   }
   
   /*CSS For Login Page */
