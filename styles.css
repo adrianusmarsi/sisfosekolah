@@ -1,0 +1,72 @@
+  body{
+    background-image: url(img/w1.jpg);
+    background-size:inherit;
+  }
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  /*CSS For Login Page */
+  .login-form {
+    width: 400px;
+    padding: 20px;
+    background-color: #EEEEEE;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+
+  .lb-txt{
+    font-weight: bold;
+  }
+  
+  .login-form h3 {
+    text-align: left;
+    margin-bottom: 20px;
+  }
+
+  /* For Homepage */
+  .wel-text {
+    color: white;
+    text-align: center;
+    font-family: "Times New Roman", Times, serif;
+  }
+
+  .wel-text h2 {
+    font-size: 54px;
+    letter-spacing: 0px;
+    word-spacing: 2px;
+
+  }
+  .wel-text p {
+    font-size: 24px;
+    letter-spacing: 0px;
+    word-spacing: 2px;
+  }
+
+  /* Dropdown */
+  /* Dropdown Content (Hidden by Default) */
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    z-index: 1;
+  }
+
+  /* Links inside the dropdown */
+  .dropdown-content a {
+    color: blue;
+    padding: 10px 12px;
+    text-decoration: none;
+    display: block;
+  }
+
+  /* Change color of dropdown links on hover */
+  .dropdown-content a:hover {background-color: #ddd;}
+
+  /* Show the dropdown menu on hover */
+  .dropdown:hover .dropdown-content {display: block;}
+
