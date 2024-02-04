@@ -1,8 +1,10 @@
-  body{
-    background-image: url(img/w1.jpg);
-    background-size:inherit;
-    min-height: 3000px;
-  }
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,800,700,600,300);
+ 
+body {
+	margin:0;
+	font-family: 'Open Sans', sans-serif;
+}
+
   .container {
     display: flex;
     justify-content: center;
@@ -39,7 +41,7 @@
 
   /* For Homepage */
   .wel-text {
-    color: white;
+    color: #3652AD;
     text-align: center;
     font-family: "Times New Roman", Times, serif;
   }
@@ -79,4 +81,3 @@
 
   /* Show the dropdown menu on hover */
   .dropdown:hover .dropdown-content {display: block;}
-
