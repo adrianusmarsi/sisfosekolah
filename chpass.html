@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css" type="text/css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <title>SMP N 1 Ledo</title>
+</head>
+<body class="bg-secondary-subtle">
+
+  <!-- Nav Bar -->
+  <nav class="navbar bg-body-tertiary sticky-top ms-auto">
+    <div class="container-fluid collapse navbar-collapse" id="navbarSupportedContent">
+      <a class="navbar-brand" href="#">
+        <img src="img/icons.png" alt="Logo" width="30" height="24" class="d-inline-block align-text-top">
+        SMP Negeri 01 Ledo
+      </a>
+      <ul class="nav justify-content-end">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">Profil</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Struktur Sekolah</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown">
+            Pusat Informasi
+          </a>
+          <ul class="dropdown-menu dropdown-content">
+            <li><a class="dropdown-item" href="#siswa">Siswa</a></li>
+            <li><a class="dropdown-item" href="#guru">Guru</a></li>
+            <li><a class="dropdown-item" href="#galeri">Galeri</a></li>
+            <li><a class="dropdown-item" href="#artikel">Artikel</a></li>
+            <li><a class="dropdown-item" href="/login.html">Ganti Password</a></li>
+          </ul>
+        </li>
+        <a class="btn btn-outline-danger ms-3" role="button" href="index.html">Logout</a>
+      </ul>
+    </div>
+  </nav>
+  <!-- Nav Bar End -->
+
+  <!-- Menu Ubah Password -->
+  <div class="container">
+    <form class="login-form lb-txt">
+      <h3>Ganti Password</h3>
+      <hr>
+      <div class="mb-3">
+        <label for="password" class="form-label">Password Lama</label>
+        <input type="password" class="form-control" id="password" placeholder="Masukan password lama">
+      </div>
+      <div class="mb-3">
+        <label for="password" class="form-label">Password Baru</label>
+        <input type="password" class="form-control" id="password" placeholder="Masukan password baru">
+      </div>
+      <div class="mb-3">
+        <label for="password" class="form-label">Ulangi Password</label>
+        <input type="password" class="form-control" id="password" placeholder="Ulangi password">
+      </div>
+      <a class="btn btn-outline-primary" href="homepage.html" role="button">Simpan</a>
+      <button type="reset" class="btn btn-outline-danger ms-2">Reset</button>
+    </form>
+  </div>
+
+  <!-- Menu Ubah Password End -->
+</body>
+</html>

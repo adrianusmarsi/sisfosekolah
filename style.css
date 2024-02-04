@@ -5,6 +5,10 @@ body {
 	font-family: 'Open Sans', sans-serif;
 }
 
+label{
+  font-weight: normal;
+}
+
   .container {
     display: flex;
     justify-content: center;
@@ -52,7 +56,7 @@ body {
     word-spacing: 2px;
 
   }
-  .wel-text p {
+  .wel-text p{
     font-size: 24px;
     letter-spacing: 0px;
     word-spacing: 2px;
